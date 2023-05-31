@@ -21,7 +21,6 @@ def match_pairs_sum_to_value(numbers: int, value: int):
         if num is not None:
             result.append((num, n))
         differences[value - n] = n
-        # print(f"{n}, diff={num} differenbces={differences}")
     return result
 
 
